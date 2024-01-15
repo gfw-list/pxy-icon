@@ -40,7 +40,7 @@ jobs:
           icons="${icons%,}]"  # Remove the last comma from the string
           
           # Create JSON object with name, icon array, and description
-          json="{\"name\": \"Icons for proxy apps rules\", $icons, \"description\": \"Icons for proxy apps rules\"}"
+          json="{\"name\": \"Icons for proxy apps \", $icons, \"description\": \"Icons for proxy apps rules\"}"
           
           # Write JSON object to file
           echo $json > icons.json
